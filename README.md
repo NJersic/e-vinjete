@@ -14,17 +14,8 @@ Za enosledna vozila se lahko uporablja letna, polletna ali tedenska e-vinjeta, z
 
 # Predstavitev mikrostoritev #
 Sistem deluje po treh glavnih mikrostoritvah:
-- Avtentikacija uporabnika (prijava v sistem),
-- Nakup in plačilo e-vinjete in
-- Preverjanje veljavnosti e-vinjete
+- [Avtentikacija uporabnika (prijava v sistem)](https://github.com/NJersic/e-vinjete/tree/main/microservices/authentication "Avtentikacija uporabnika (prijava v sistem)") ,
+- [Nakup in plačilo e-vinjete](https://github.com/NJersic/e-vinjete/tree/main/microservices/nakupin "Nakup in plačilo e-vinjete") in
+- [Preverjanje veljavnosti e-vinjete](https://github.com/NJersic/e-vinjete/tree/main/microservices/veljavnost "Preverjanje veljavnosti e-vinjete").
 
-
-## Preverjanje veljavnosti e-vinjete ##
-Kot že omenjeno, v postopku nakupa e-vinjete mora stranka najprej določiti cestninski razred vozila, za katerega želi kupiti e-vinjeto, izbrati vrsto e-vinjete (tedenska, mesečna, letna, polletna) in določiti začetek njene veljavnosti. Po določenem datumu se glede na izbrano vrsto e-vinjete generira datum, po katerem e-vinjeta postane neveljavna. 
-
-Funkcionalne zahteve  | Nefunkcionalne zahteve
-------------- | -------------
-Pregledovanje e-vinjet  | Glede na uporabniški račun in njegove nakupe lahko preglejujemo več e-vinjet hkrati
-Pregled veljavnosti  | Napisan datum začetka in datum konca veljavnosti
-Tabelični način pregleda veljavnosti e-vinjet  | Podatki o posamezni e-vinjeti in pripadajoči registrski označbi vozila so zapisani v svoji vrstici
 
