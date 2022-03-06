@@ -18,14 +18,6 @@ Sistem deluje po treh glavnih mikrostoritvah:
 - Nakup in plačilo e-vinjete in
 - Preverjanje veljavnosti e-vinjete
 
-## Avtentikacija uporabnika (prijava v sistem) ##
-Uporabnik se bo registriral s pomočjo forme. Ob registraciji so za fizične osebe ime, priimek in e-naslov kupca obvezni podatki, opcijsko pa lahko stranka navede tudi svoj naslov.
-
-Funkcionalne zahteve  | Nefunkcionalne zahteve
-------------- | -------------
-Registracija uporabnika s pomočjo forme  | Obvestilo ob uspešni registraciji se pošlje v manj kot 30min
-Prijava uporabnika s pomočjo forme  | Avtentikacija bo urejena s pomočjo JWT žetonov
-Odjava uporabnika iz portala  | Če ima uporabnik neshranjeno naročilo, se ta ob odjavi razveljavi
 
 ## Nakup in plačilo e-vinjete ##
 
