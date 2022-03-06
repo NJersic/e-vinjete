@@ -19,20 +19,6 @@ Sistem deluje po treh glavnih mikrostoritvah:
 - Preverjanje veljavnosti e-vinjete
 
 
-## Nakup in plačilo e-vinjete ##
-
-Za pravilnost vnesenih podatkov je odgovorna izključno stranka. Izvedenci v primeru napačnih podatkov ne prevzemajo nobenih odgovornosti za posledice, ki v skladu z zakonodajo nastanejo zaradi vnosa in potrditve nepravilnih podatkov.
-
-V postopku nakupa e-vinjete mora stranka najprej določiti cestninski razred vozila, za katerega želi kupiti e-vinjeto, izbrati vrsto e-vinjete (tedenska, mesečna, letna, polletna) in določiti začetek njene veljavnosti. Sledi vnos države registracije in registrske označbe vozila, za katero bo stranka kupila e-vinjeto. Registrsko označbo vozila je treba vnesti dvakrat, s čimer se minimizira možnost, da bi pri potrditvi podatkov prišlo do pomote. Cena se določa tudi glede na vrsto vozila.
-
-Po zaključku izbiranja e-vinjet mora stranka določiti, s katerim plačilnim sredstvom bo opravila nakup. Nakup je možen s plačilno ali kreditno kartico in je možen samo v evrih.
-
-Funkcionalne zahteve  | Nefunkcionalne zahteve
-------------- | -------------
-Plačilo s plačilno ali kreditno kartico  | Podatki se ob prvem vnosu shranijo v bazo, ob naslednjih vnosih se avtomatsko vstavijo
-Vnos registrske označbe  | Forma zahteva vnos registrske označbe vozila dvakrat, pri tem pa se označi za katero vrsto vozila se gre
-Izbira vrste e-vinjete | Uporabik ima možnost izbire med (tedenska, mesečna, letna, polletna)
-
 ## Preverjanje veljavnosti e-vinjete ##
 Kot že omenjeno, v postopku nakupa e-vinjete mora stranka najprej določiti cestninski razred vozila, za katerega želi kupiti e-vinjeto, izbrati vrsto e-vinjete (tedenska, mesečna, letna, polletna) in določiti začetek njene veljavnosti. Po določenem datumu se glede na izbrano vrsto e-vinjete generira datum, po katerem e-vinjeta postane neveljavna. 
 
