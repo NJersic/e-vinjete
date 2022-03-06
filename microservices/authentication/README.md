@@ -1,5 +1,6 @@
 ## Avtentikacija uporabnika (prijava v sistem) ##
-Uporabnik se bo registriral s pomočjo forme. Ob registraciji so za fizične osebe ime, priimek in e-naslov kupca obvezni podatki.
+Uporabnik se bo registriral s pomočjo forme. Ob registraciji so za fizične osebe ime, priimek in e-naslov kupca obvezni podatki. Prav tako si uporabnik nastavi geslo.
+Ob prijavi uporablja svoj e-naslov in geslo.
 
 Funkcionalne zahteve  | Nefunkcionalne zahteve
 ------------- | -------------
