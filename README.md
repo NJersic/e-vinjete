@@ -15,7 +15,7 @@ Za enosledna vozila se lahko uporablja letna, polletna ali tedenska e-vinjeta, z
 # Predstavitev mikrostoritev #
 Sistem deluje po treh glavnih mikrostoritvah:
 - [Avtentikacija uporabnika (prijava v sistem)](https://github.com/NJersic/e-vinjete/tree/main/microservices/authentication "Avtentikacija uporabnika (prijava v sistem)") ,
-- [Nakup in plačilo e-vinjete](https://github.com/NJersic/e-vinjete/tree/main/microservices/nakupin "Nakup in plačilo e-vinjete") in
+- [Nakup in plačilo e-vinjete](https://github.com/NJersic/e-vinjete/tree/main/microservices/nakup "Nakup in plačilo e-vinjete") in
 - [Preverjanje veljavnosti e-vinjete](https://github.com/NJersic/e-vinjete/tree/main/microservices/veljavnost "Preverjanje veljavnosti e-vinjete").
 
 
